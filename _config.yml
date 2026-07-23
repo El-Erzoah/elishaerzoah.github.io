@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Elisha's Webpage"
+title                    : "Elisha's Homepage"
 title_separator          : "-"
 name                     : &name "Elisha Erzoah"
 description              : &description "personal description"
