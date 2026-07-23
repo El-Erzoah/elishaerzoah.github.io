@@ -92,6 +92,7 @@ function closeLightbox() {
 
 **Links**
 These are  some links I found helpful
+
 **Universities**
 - [George Mason University(GMU)](https://www.gmu.edu/)
 - [Africa Institute for Mathematical Sciences(AIMS) Ghana](https://aims.edu.gh/)
