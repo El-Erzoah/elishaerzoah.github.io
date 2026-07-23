@@ -9,12 +9,11 @@ redirect_from:
 
 
 You can download my current Curriculum Vitae using the link below.
-
 📥 **[Download my CV](/files/cv_erzoah.pdf)**
 
 ## About Me
 
-I am a doctoral student in Mathematics at George Mason University, conducting research under the supervision of Professor Maria Emelianenko.
+I am a doctoral student in Mathematics at George Mason University, conducting research under the supervision of [Professor Maria Emelianenko](https://math.gmu.edu/~memelian/).
 My research lies at the intersection of **mathematical biology**, **mathematical oncology**, and **computational modeling**, with a focus on understanding complex biological systems through data-driven and mechanistic approaches.
 
 ## Research Interests
