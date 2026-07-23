@@ -1,5 +1,5 @@
 ---
-title: "Math 151 – Calculus I"
+title: "Math 133 – Analytic Geometry and Calculus I"
 collection: teaching
 type: "Graduate Teaching Assistant"
 department: "Mathematics"
