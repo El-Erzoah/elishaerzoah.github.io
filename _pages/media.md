@@ -13,7 +13,7 @@ Below are selected moments from conferences, teaching, and research activities.
 
   <figure>
     <img src="/images/BEERS_Talks.jpg" onclick="openLightbox(this)">
-    <figcaption>This picture features me at the 2026 BEER Symposium held at George Mason University </figcaption>
+    <figcaption>This picture features me and other presenters at the 2026 BEER Symposium held at George Mason University </figcaption>
   </figure>
 
   <figure>
@@ -88,5 +88,19 @@ function closeLightbox() {
   document.getElementById("lightbox").style.display = "none";
 }
 </script>
+
+
+**Links**
+These are  some links I found helpful
+**Universities**
+- [George Mason University(GMU)](https://www.gmu.edu/)
+- [Africa Institute for Mathematical Sciences(AIMS) Ghana](https://aims.edu.gh/)
+- [University of Cape Coast(UCC)](https://ucc.edu.gh/)
+
+**National Mathematical Organizations**
+- [Society for Industrial and Applied Mathematics(SIAM)](https://www.siam.org/)
+- [Society of Mathematical Biology(SMB)](https://smb.org/)
+
+
 
 
