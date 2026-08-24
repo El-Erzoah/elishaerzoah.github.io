@@ -5,15 +5,15 @@ permalink: /media/
 author_profile: true
 ---
 
-
-
 Below are selected moments from conferences, teaching, and research activities.
 
 <div class="gallery">
 
   <figure>
     <img src="/images/BEERS_Talks.jpg" onclick="openLightbox(this)">
-    <figcaption>This picture features me and other presenters at the 2026 BEER Symposium held at George Mason University </figcaption>
+    <figcaption>
+      This picture features me and other presenters at the 2026 BEER Symposium held at George Mason University.
+    </figcaption>
   </figure>
 
   <figure>
@@ -23,12 +23,50 @@ Below are selected moments from conferences, teaching, and research activities.
 
 </div>
 
-<!-- Lightbox -->
+
+<!-- Photo Lightbox -->
+
 <div id="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img">
 </div>
 
+
+<h2>Videos</h2>
+
+<div class="video-gallery">
+
+  <div class="video-card" onclick="openVideo()">
+
+    <video muted>
+      <source src="/videos/vid.mp4" type="video/mp4">
+    </video>
+
+    <div class="play-button">▶</div>
+
+    <p>Conference Presentation</p>
+
+  </div>
+
+</div>
+
+
+<!-- Video Lightbox -->
+
+<div id="video-lightbox" onclick="closeVideo()">
+
+  <video id="large-video" controls onclick="event.stopPropagation()">
+    <source src="/videos/vid.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+
 <style>
+
+/* =========================
+   PHOTO GALLERY
+   ========================= */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -37,7 +75,7 @@ Below are selected moments from conferences, teaching, and research activities.
 }
 
 .gallery img {
-  width: 250px;     
+  width: 250px;
   height: auto;
   border-radius: 10px;
   cursor: pointer;
@@ -57,12 +95,18 @@ figcaption {
   color: #555;
 }
 
-/* Lightbox */
+
+/* =========================
+   PHOTO LIGHTBOX
+   ========================= */
+
 #lightbox {
   position: fixed;
   display: none;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0,0,0,0.85);
   justify-content: center;
   align-items: center;
@@ -74,66 +118,137 @@ figcaption {
   max-height: 90%;
   border-radius: 10px;
 }
-</style>
-
-<script>
-function openLightbox(img) {
-  const box = document.getElementById("lightbox");
-  const boxImg = document.getElementById("lightbox-img");
-  box.style.display = "flex";
-  boxImg.src = img.src;
-}
-
-function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
-}
 
 
+/* =========================
+   VIDEO GALLERY
+   ========================= */
 
 .video-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  display: flex;
+  justify-content: flex-start;
   gap: 25px;
-  justify-content: center;
   margin-top: 20px;
 }
 
+.video-card {
+  position: relative;
+  width: 280px;
+  cursor: pointer;
+  text-align: center;
+}
+
 .video-card video {
-  width: 300px;
-  height: 180px;
+  width: 280px;
+  height: 170px;
   object-fit: cover;
   border-radius: 10px;
-  cursor: pointer;
+  display: block;
 }
 
 .video-card p {
-  text-align: center;
   margin-top: 8px;
+  font-size: 15px;
 }
+
+
+/* Play button */
+
+.play-button {
+  position: absolute;
+  top: 65px;
+  left: 115px;
+  width: 50px;
+  height: 40px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+/* =========================
+   LARGE VIDEO
+   ========================= */
+
+#video-lightbox {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#video-lightbox video {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+</style>
+
+
+<script>
+
+/* =========================
+   PHOTO LIGHTBOX
+   ========================= */
+
+function openLightbox(img) {
+
+  const box = document.getElementById("lightbox");
+  const boxImg = document.getElementById("lightbox-img");
+
+  box.style.display = "flex";
+  boxImg.src = img.src;
+
+}
+
+
+function closeLightbox() {
+
+  document.getElementById("lightbox").style.display = "none";
+
+}
+
+
+/* =========================
+   VIDEO LIGHTBOX
+   ========================= */
+
+function openVideo() {
+
+  const box = document.getElementById("video-lightbox");
+  const video = document.getElementById("large-video");
+
+  box.style.display = "flex";
+
+  video.currentTime = 0;
+
+  video.play();
+
+}
+
+
+function closeVideo() {
+
+  const box = document.getElementById("video-lightbox");
+  const video = document.getElementById("large-video");
+
+  video.pause();
+
+  box.style.display = "none";
+
+}
+
 </script>
-
-
-<h2>Videos</h2>
-
-<div class="video-gallery">
-
-  <div class="video-card">
-    <video controls>
-      <source src="/videos/vid.mp4" type="video/mp4">
-    </video>
-
-    <p><strong>Conference Presentation</strong></p>
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
 
 
 
