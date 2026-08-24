@@ -43,7 +43,8 @@ Below are selected moments from conferences, teaching, and research activities.
 
     <div class="play-button">▶</div>
 
-    <p>Conference Presentation</p>
+    <p>When your seat is randomly picked and all you can do is spin and pray 😂🎯 …and somehow it lands on BLANKET! 🥳🏆 COS College branded blanket won on Aug. 21, 2026🎉.
+</p>
 
   </div>
 
