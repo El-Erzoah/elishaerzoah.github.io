@@ -9,7 +9,7 @@ redirect_from:
 
 
 You can download my current Curriculum Vitae using the link below.
-📥 **[Download my CV](/files/cv_erzoah.pdf)**
+📥 **[Download my CV](/files/El_CV.pdf)**
 
 ## About Me
 
