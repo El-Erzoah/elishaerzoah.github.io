@@ -119,8 +119,7 @@ function closeLightbox() {
 
   <div class="video-card">
     <video controls>
-      <source src="/videos/conference-talk.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/videos/vid.mp4" type="video/mp4">
     </video>
 
     <p><strong>Conference Presentation</strong></p>
