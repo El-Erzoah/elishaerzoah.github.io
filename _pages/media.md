@@ -87,19 +87,62 @@ function openLightbox(img) {
 function closeLightbox() {
   document.getElementById("lightbox").style.display = "none";
 }
+
+
+
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-card video {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.video-card p {
+  text-align: center;
+  margin-top: 8px;
+}
 </script>
-
-
 
 
 <h2>Videos</h2>
 
-<video controls width="700">
-  <source src="/videos/vid.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-gallery">
 
-<p><em>Conference presentation</em></p>
+  <div class="video-card">
+    <video controls>
+      <source src="/videos/conference-talk.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <p><strong>Conference Presentation</strong></p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
