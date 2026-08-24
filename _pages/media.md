@@ -90,6 +90,19 @@ function closeLightbox() {
 </script>
 
 
+
+
+<h2>Videos</h2>
+
+<video controls width="700">
+  <source src="/videos/vid.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<p><em>Conference presentation</em></p>
+
+
+
 **Links**
 =====
 These are  some links I found helpful
