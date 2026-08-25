@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate Teaching Assistant"
 department: "Mathematics"
 venue: "George Mason University"
-semester: "Fall"
+semester: "Spring"
 year: 2025
 permalink: /teaching/math151/
 ---
