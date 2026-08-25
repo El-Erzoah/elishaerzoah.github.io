@@ -1,5 +1,5 @@
 ---
-title: "Oscillator Dynamics in Cell Signaling  "
+title: "Oscillatory Dynamics in Cell Signaling  "
 collection: talks
 type: "Talk"
 venue: "Graduate Seminar, George Mason University"
