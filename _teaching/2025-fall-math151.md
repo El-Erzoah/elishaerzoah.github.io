@@ -24,7 +24,10 @@ Calculus I introduces the fundamental concepts of differential and integral calc
 
 ## My Responsibilities
 
-- Led recitation/tutorial sessions
-- Assisted students during office hours
-- Graded assignments and examinations
-- Answered students' questions and provided academic support
+- Led structured recitation sessions designed to strengthen conceptual understanding and analytical skills.
+- Held regular office hours to provide individualized academic support and mentoring to students. 
+- Graded quizzes and assignments, providing constructive feedback to support student learning.
+
+
+ 
+			
